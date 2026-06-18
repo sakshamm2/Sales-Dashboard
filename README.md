@@ -164,7 +164,7 @@ Real-time KPI monitoring including revenue tracking, item sales metrics, and cat
 
 Visual breakdown of category-wise revenue generated from sales transactions.
 
-![Revenue Analytics](screenshots/revenue-analytics.png)
+![Revenue Analytics](screenshots/revenue-chart.png)
 ## 👨‍💻 Author
 
 **Saksham Yadav**
