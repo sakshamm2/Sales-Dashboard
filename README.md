@@ -152,7 +152,19 @@ This project demonstrates practical experience in:
 * Version Control with Git
 
 ---
+## 📸 Application Screenshots
 
+### 🏠 Dashboard Overview
+
+Real-time KPI monitoring including revenue tracking, item sales metrics, and category performance.
+
+![Dashboard Overview](screenshots/dashboard-home.png)
+
+### 📊 Revenue Distribution Analysis
+
+Visual breakdown of category-wise revenue generated from sales transactions.
+
+![Revenue Analytics](screenshots/revenue-analytics.png)
 ## 👨‍💻 Author
 
 **Saksham Yadav**
