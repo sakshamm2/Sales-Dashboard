@@ -1,28 +1,18 @@
-# 📊 Sales Analytics Dashboard
+# Sales Analytics Dashboard
 
-A modern desktop-based Sales Analytics Dashboard built with **Python**, **MySQL**, **CustomTkinter**, and **Matplotlib**. The application provides real-time business insights through interactive visualizations, KPI monitoring, and data-driven reporting to support informed decision-making.
+A desktop-based sales analytics dashboard built with **Python, MySQL, CustomTkinter, and Matplotlib**. The application provides sales and business insights through interactive visualizations, KPI monitoring, and data analysis.
 
----
+## Features
 
-## 🚀 Features
+* Real-time sales performance tracking
+* Revenue and profit analytics
+* Customer and product performance insights
+* Interactive data visualizations
+* MySQL-powered relational database backend
+* Desktop user interface
+* Modular and scalable architecture
 
-✅ Real-time sales performance tracking
-
-✅ Revenue and profit analytics
-
-✅ Customer and product performance insights
-
-✅ Interactive data visualizations
-
-✅ MySQL-powered relational database backend
-
-✅ Modern desktop user interface
-
-✅ Modular and scalable architecture
-
----
-
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category             | Technologies  |
 | -------------------- | ------------- |
@@ -33,9 +23,7 @@ A modern desktop-based Sales Analytics Dashboard built with **Python**, **MySQL*
 | Data Visualization   | Matplotlib    |
 | Version Control      | Git           |
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 SalesAnalyticsDashboard/
@@ -56,121 +44,125 @@ SalesAnalyticsDashboard/
 └── .gitignore
 ```
 
----
+## Key Business Metrics
 
-## 📈 Key Business Metrics
+The dashboard provides the following metrics and analysis:
 
-The dashboard is designed to provide actionable insights through:
+| Metric               | Description                         |
+| -------------------- | ----------------------------------- |
+| Total Revenue        | Overall revenue generated           |
+| Product Performance  | Best and worst performing products  |
+| Customer Analytics   | Customer purchase behavior          |
+| Sales Trends         | Monthly and yearly growth analysis  |
+| KPI Tracking         | Key business performance indicators |
+| Revenue Distribution | Category-wise sales analysis        |
 
-| Metric                  | Description                         |
-| ----------------------- | ----------------------------------- |
-| 💰 Total Revenue        | Overall revenue generated           |
-| 📦 Product Performance  | Best and worst performing products  |
-| 👥 Customer Analytics   | Customer purchase behavior          |
-| 📊 Sales Trends         | Monthly and yearly growth analysis  |
-| 🎯 KPI Tracking         | Key business performance indicators |
-| 📉 Revenue Distribution | Category-wise sales analysis        |
-
----
-
-## 🔍 Dashboard Capabilities
+## Dashboard Capabilities
 
 * Analyze sales trends over time
 * Monitor customer purchasing patterns
 * Identify top-performing products
 * Visualize revenue distribution
 * Generate business intelligence reports
-* Support strategic decision-making through data insights
+* Support business decision-making through data analysis
 
----
+## How to Run
 
-## ⚙️ Installation
+### Prerequisites
 
-### 1️⃣ Clone Repository
+Make sure you have the following installed:
 
-```bash
+* Python 3.12 or later
+* MySQL
+* Git
+
+### 1. Clone the Repository
+
+```bash id="e7q0jv"
 git clone https://github.com/your-username/SalesAnalyticsDashboard.git
 cd SalesAnalyticsDashboard
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2. Create a Virtual Environment
 
-```bash
+```bash id="jq4t8x"
 python -m venv venv
 ```
 
-### 3️⃣ Activate Environment
+### 3. Activate the Virtual Environment
 
-**Windows**
+**Windows:**
 
-```bash
+```bash id="k1q4sy"
 venv\Scripts\activate
 ```
 
-### 4️⃣ Install Dependencies
+### 4. Install Dependencies
 
-```bash
+```bash id="l5sp3r"
 pip install -r requirements.txt
 ```
 
----
+## Database Setup
 
-## 🗄️ Database Setup
+### 1. Create the Database
 
-Create a MySQL database:
+Open MySQL and create the database:
 
-```sql
+```sql id="3k1c7p"
 CREATE DATABASE sales_dashboard;
 ```
 
-Execute the schema file:
+### 2. Execute the Schema
 
-```sql
+Run the schema file to create the required database structure:
+
+```sql id="4m6q9x"
 SOURCE database/schema.sql;
 ```
 
----
+Make sure the MySQL connection details used by the application are configured correctly before running the dashboard.
 
-## ▶️ Run the Application
+## Run the Application
 
-```bash
+Start the dashboard with:
+
+```bash id="n8j2hf"
 python src/dashboard.py
 ```
 
----
+## Screenshots
 
-## 🎓 Learning Outcomes
+### Dashboard Overview
 
-This project demonstrates practical experience in:
-
-* Database Design & SQL Querying
-* Data Analytics with Pandas
-* Business Intelligence Reporting
-* Data Visualization Techniques
-* Desktop Application Development
-* Software Architecture & Modular Design
-* Version Control with Git
-
----
-## 📸 Application Screenshots
-
-### 🏠 Dashboard Overview
-
-Real-time KPI monitoring including revenue tracking, item sales metrics, and category performance.
+The dashboard provides KPI monitoring, revenue tracking, item sales metrics, and category performance.
 
 ![Dashboard Overview](screenshots/dashboard-home.png)
 
-### 📊 Revenue Distribution Analysis
+### Revenue Distribution Analysis
 
-Visual breakdown of category-wise revenue generated from sales transactions.
+The revenue chart provides a category-wise breakdown of sales generated from transactions.
 
 ![Revenue Analytics](screenshots/revenue-chart.png)
-## 👨‍💻 Author
+
+## Learning Outcomes
+
+This project demonstrates practical experience with:
+
+* Database design and SQL querying
+* Data analysis with Pandas
+* Business intelligence reporting
+* Data visualization
+* Desktop application development
+* Modular software architecture
+* Version control with Git
+
+## Author
 
 **Saksham Yadav**
 
 B.Tech Computer Science Engineering
 
-📍 India
+India
 
-💼 Aspiring Software Engineer | Data Analytics Enthusiast
+Aspiring Software Engineer | Data Analytics Enthusiast
